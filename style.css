@@ -1,0 +1,162 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: black;
+    height: 110vh;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mini-container {
+    background-color: #f3f3f3;
+    height: 95vh;
+    width: 80%;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+nav h3 {
+    margin-left: 50px;
+    width: 10%;
+}
+
+.ul-ul {
+    width: 80%;
+    display: flex;
+
+}
+
+.ul-ul li {
+    margin-left: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    list-style: none;
+}
+
+span {
+    margin-right: 50px;
+    width: 20%;
+    margin-left: 20px;
+}
+
+span button {
+    height: 35px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+span :first-child {
+    border: none;
+}
+
+span :nth-last-child(1) {
+    width: 100px;
+
+}
+
+.img-text-section {
+    height: 70vh;
+    display: flex;
+
+}
+
+.mag-section {
+    height: 70vh;
+    width: 50%;
+    background-image: url(./img.png);
+    background-position: center;
+    border-radius: 20px;
+}
+
+.text-section {
+    height: 70vh;
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgb(100, 237, 143);
+
+}
+
+h1 {
+    font-size: 60px;
+    margin-left: 60px;
+}
+
+p {
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: 10px;
+    color: #f3f3f3;
+
+}
+
+.input-btn {
+    margin-top: 100px;
+    width: 90%;
+    margin-left: 30px;
+}
+
+.input-btn input {
+    height: 40px;
+    width: 65%;
+    border-radius: 10px;
+    border: 1px solid rgb(122, 120, 120);
+    margin-left: 10px;
+}
+
+.input-btn button {
+    height: 40px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+footer {
+
+    height: 100px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    color: #d3d3d3;
+
+}
+
+footer p {
+    font-size: 15px;
+    color: #656363;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+
+ul li {
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+li img {
+    height: 18px;
+}
